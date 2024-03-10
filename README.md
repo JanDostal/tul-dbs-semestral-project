@@ -12,7 +12,7 @@
     - Blocking an existing opuscard (replacement, loss, damage)
     - Purchasing a time coupon for the user's active opuscard
     - Moving an active time coupon from an existing opuscard to a new opuscard
-- App users are expected to be ordinary people (pensioners, children, adults, students, disabled) who use the public transport system of the Liberec region, **located in Czechia**.
+- App users are expected to be ordinary people (pensioners, children, adults, students, disabled) who use the public transport system of the Liberec region, **located in Czechia**
 - The idea behind data layer design was inspired by this existing web app https://eshop.iidol.cz/cs
 
 # Development info
