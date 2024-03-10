@@ -14,10 +14,10 @@
 
 -- 8. Vypište pro každého uživatele, který je ve spojení s jiným uživatelem či uživateli, kolik ovládá uživatelů. Poté seřaďte sestupně dle počtu ovládaných uživatelů. Vypište ve formátu: EmailUzivatele, Jmeno, Prijmeni, PocetOvladanychUzivatelu.
 
--- 9. Vypište tarifní zóny, do kterých vede tři a více spojů. Pokuste se napsat dotaz bez použití HAVING nebo bez Count. Pozor na celosíťovku (TarifZoneNumber: "9999"). Vypište ve formátu: CisloZony, NazevZony.
+-- 9. Vypište tarifní zóny, do kterých vede tři a více spojů. Pokuste se napsat dotaz bez použití HAVING nebo bez COUNT. Pozor na celosíťovku (TarifZoneNumber: "9999"). Vypište ve formátu: CisloZony, NazevZony.
 
 -- 10. Vypište pro každou tarifní kategorii, kolik celkově reálně zaplatili uživatelé za objednávky opuscard. Do výsledku započítavejte pouze objednávky uživatelů, kteří mají všechny své vybrané kategorie platné. Zahrňte i tarifní kategorie s nulovou celkovou cenou taky do výpisu. Následně seřaďte sestupně podle celkové ceny. Formát výpisu je: NazevTarifniKategorie, CelkovaCenaObjednavekOpuscard.
 
--- 11. Vypište tarifní zóny, do kterých vede spoj či spoje, které se skládají z tří a více mezicest. Nejsou povoleny mezicesty, které tvoří uzavřený kruh v rámci grafu. Pozor na celosíťovku (TarifZoneNumber: "9999"). Pokuste se napsat dotaz bez použití HAVING nebo bez Count. Vypište ve formátu: CisloZony, NazevZony.
+-- 11. Vypište tarifní zóny, do kterých vede spoj či spoje, které se skládají z tří a více mezicest. Nejsou povoleny mezicesty, které tvoří uzavřenou kružnici v rámci grafu. Pozor na celosíťovku (TarifZoneNumber: "9999"). Pokuste se napsat dotaz bez použití HAVING nebo bez COUNT. Vypište ve formátu: CisloZony, NazevZony.
 
 -- 12. Najděte rozdíl mezi průměrnou cenou objednávek časových kupónů zakoupených před rokem 2020 a průměrnou cenu objednávek časových kupónů zakoupených od roku 2020. Ujistěte se, že jste spočítali průměrnou cenu nejdříve pro každou objednávku časových kupónů a pak průměr těchto průměrů před rokem 2020 a po roce 2020. Vypište ve formátu: RozdilPrumernychCenObjednavekKuponuPred_2020_Po_2020.

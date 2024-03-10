@@ -196,7 +196,7 @@ GROUP BY
 	OvladajiciUzivatele.surname
 ORDER BY PocetOvladanychUzivatelu DESC;
 
--- 9. Vypište tarifní zóny, do kterých vede tři a více spojů. Pokuste se napsat dotaz bez použití HAVING nebo bez Count. Pozor na celosíťovku (TarifZoneNumber: "9999"). Vypište ve formátu: CisloZony, NazevZony.
+-- 9. Vypište tarifní zóny, do kterých vede tři a více spojů. Pokuste se napsat dotaz bez použití HAVING nebo bez COUNT. Pozor na celosíťovku (TarifZoneNumber: "9999"). Vypište ve formátu: CisloZony, NazevZony.
 
 SELECT
 	(
@@ -267,7 +267,7 @@ ProdaneObjednavkyOpuscard ON
 GROUP BY TarifCategory.tarifCategoryName
 ORDER BY CelkovaCenaObjednavekOpuscard DESC;
 
--- 11. Vypište tarifní zóny, do kterých vede spoj či spoje, které se skládají z tří a více mezicest. Nejsou povoleny mezicesty, které tvoří uzavřený kruh v rámci grafu. Pozor na celosíťovku (TarifZoneNumber: "9999"). Pokuste se napsat dotaz bez použití HAVING nebo bez Count. Vypište ve formátu: CisloZony, NazevZony.
+-- 11. Vypište tarifní zóny, do kterých vede spoj či spoje, které se skládají z tří a více mezicest. Nejsou povoleny mezicesty, které tvoří uzavřenou kružnici v rámci grafu. Pozor na celosíťovku (TarifZoneNumber: "9999"). Pokuste se napsat dotaz bez použití HAVING nebo bez COUNT. Vypište ve formátu: CisloZony, NazevZony.
 
 SELECT
 	(
