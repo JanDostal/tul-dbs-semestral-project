@@ -17,8 +17,8 @@
 
 # Development info
 
-- The project was being developed between october 2023 and january 2024
-- The project was uploaded from university google drive to this repository in march 2024, which was shortly after the end of winter semester of 2nd year at the Technical university
+- The project was being developed between October 2023 and January 2024
+- The project was uploaded from university google drive to this repository in March 2024, which was shortly after the end of winter semester of 2nd year at the Technical university
 
 # Instructions for starting project
 
